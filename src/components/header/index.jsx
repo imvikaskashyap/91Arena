@@ -24,7 +24,7 @@ const Header = () => {
           <nav className="relative flex items-center justify-between h-16 bg-white lg:rounded-md lg:shadow-lg lg:h-24 lg:px-8 lg:py-6">
             <div className="flex-shrink-0">
               <Link href="/" title="" className="flex">
-                <Image className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" width={100} height={100} alt="" />
+                <Image className="w-[150px] h-16 lg:h-20 object-contain" src="/assets/png/logo-no-background.png" width={300} height={200} alt="" />
               </Link>
             </div>
 

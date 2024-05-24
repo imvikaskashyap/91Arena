@@ -1,21 +1,24 @@
 import React from 'react'
 import { DarkMode } from '@/custom-components/Theme-Mode'
-import Blog from '@/components/blog/page'
-import Blog2 from '@/components/blog2/page'
-import ScrollAreaHorizontalDemo from '@/components/carousel-scroll/page'
-import { CarouselSpacing } from '@/components/carousel/page'
-import PhoneFinderContainer from '@/components/phoneFinderContainer/page'
-import CarouselScroll from '@/components/carousel-scroll/page'
-import { TabsDemo } from '@/components/phoneFinderContainer2/page'
+import Blog from '@/components/blog'
+import Blog2 from '@/components/blog2'
+import ScrollAreaHorizontalDemo from '@/components/carousel-scroll'
+import { CarouselSpacing } from '@/components/carousel'
+import PhoneFinderContainer from '@/components/phoneFinderContainer'
+import CarouselScroll from '@/components/carousel-scroll'
+import { TabsDemo } from '@/components/phoneFinderContainer2'
+import SmartphoneContainer from '@/components/smartphoneContainer'
 const page = () => {
   return (
     <div className='m-8'>
-    <div className='flex flex-col items-center justify-between my-8 lg:flex-row'>
+    <div className='flex flex-col items-center justify-between my-8 lg:flex-row lg:h-[89vh]'>
     <TabsDemo/>
     {/* <PhoneFinderContainer/> */}
       <Blog/>
 
     </div>
+    <SmartphoneContainer title1= "Latest and Popular Mobiles"/>
+    <SmartphoneContainer title2= "Upcoming Mobiles"/>
       <Blog2/>
       <CarouselScroll/>
       <CarouselSpacing/>

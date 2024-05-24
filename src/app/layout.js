@@ -2,8 +2,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { DarkMode } from "@/custom-components/Theme-Mode";
 import { AuthProvider } from "@/context/authContext";
-import Header from "@/components/header/page";
-import Footer from "@/components/footer/page";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: "PTC - Teaching App",

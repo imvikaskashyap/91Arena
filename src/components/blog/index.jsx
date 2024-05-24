@@ -1,15 +1,15 @@
 import Image from 'next/image';
-import CarouselScroll from '../carousel-scroll/page';
+import CarouselScroll from '../carousel-scroll';
 
 const Blog = () => {
   return (
-    <div className='w-full lg:w-1/2' >
+    <div className=' borderCss w-full lg:w-[60%] '>
       {/* Card Blog */}
-      <div className="borderCss max-w-[85rem] ml-2 px-4 py-8 sm:px-6 lg:px-8 sm:h-[50%]">
+      <div className=" max-w-[85rem] ml-2 px-4 py-4 sm:px-6 lg:px-4">
         {/* Grid */}
           {/* Card */}
-          <a className="group relative block rounded-xl min-w-[50%] lg:min-w-0" href="#">
-            <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[240px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70">
+          <a className="group relative block rounded-xl lg:min-w-0" href="#">
+            <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[223px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70">
               <Image
                 className="size-full absolute top-0 start-0 object-cover"
                 src="https://images.unsplash.com/photo-1669828230990-9b8583a877ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80"

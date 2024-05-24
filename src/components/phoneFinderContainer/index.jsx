@@ -15,11 +15,11 @@ const PhoneFinderContainer = () => {
   ];
 
   return (
-    <div className="phone-finder-container borderCss w-1/2 p-4">
+    <div className="phone-finder-container borderCss w-1/3 p-4">
       <h1 className="text-xl font-bold mb-4">Phone Finder</h1>
       <div className="grid grid-cols-3 gap-4">
         {smartphones.map((phone, index) => (
-          <button key={index} className="phone-item p-2 border rounded bg-gray-100 hover:bg-gray-200">
+          <button key={index} className="phone-item p-1 text-[12px] border rounded bg-gray-100 hover:bg-gray-200">
             {phone}
           </button>
         ))}

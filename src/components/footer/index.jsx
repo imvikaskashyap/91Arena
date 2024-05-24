@@ -8,7 +8,7 @@ const Footer = () => {
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
             <div class="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-                <Image class="w-auto h-9" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" width={150} height={150} alt="Image" />
+                <Image class="w-auto h-20" src="/assets/png/logo-no-background.png"  width={300} height={150} alt="Image" />
 
                 <p class="text-base leading-relaxed text-gray-600 mt-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 

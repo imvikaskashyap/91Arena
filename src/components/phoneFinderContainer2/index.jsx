@@ -40,7 +40,7 @@ const smartphones = [
 
 export function TabsDemo() {
   return (
-    <Tabs defaultValue="allBrands" className="w-full h-full">
+    <Tabs defaultValue="allBrands" className="w-full lg:w-[36%] ">
       <TabsList className="grid w-full grid-cols-2">
         <TabsTrigger value="allBrands">All Brands</TabsTrigger>
         <TabsTrigger value="findPhone">Find Phone</TabsTrigger>
@@ -48,13 +48,13 @@ export function TabsDemo() {
       <TabsContent value="allBrands">
         <Card>
           <CardHeader>
-            <CardTitle className="text-center mb-2">All Brands</CardTitle>
+            <CardTitle className="text-center text-xl mb-2">All Brands</CardTitle>
             <CardDescription>
               <div className="grid grid-cols-3 gap-4">
                 {smartphones.map((phone, index) => (
                   <button
                     key={index}
-                    className="phone-item p-2 border rounded bg-gray-100 hover:bg-gray-200"
+                    className="phone-item py-1 px-2 border rounded bg-gray-100 hover:bg-gray-200"
                   >
                     {phone}
                   </button>
@@ -83,9 +83,9 @@ export function TabsDemo() {
           </CardHeader>
           <CardContent className="space-y-2"></CardContent>
           <CardFooter>
-            <Button variant="outline" size="icon">
+            {/* <Button variant="outline" size="icon">
               <ChevronRight className="h-4 w-4" />
-            </Button>
+            </Button> */}
           </CardFooter>
         </Card>
       </TabsContent>
