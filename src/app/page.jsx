@@ -28,8 +28,8 @@ const page = () => {
       <LatestMobiles />
       <NewMobiles/>
       <UpcomingMobiles />
-      {/* <Blog2 />
-      <BlogTemplate/> */}
+      {/* <Blog2 /> */}
+      <BlogTemplate/>
      
     </div>
   );

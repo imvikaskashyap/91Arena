@@ -51,7 +51,7 @@ const BlogTemplate = () => {
           </div>
         </div>
       </div>
-<div className='flex flex-col items-center justify-between'>
+<div className='flex flex-col gap-2 items-center justify-between'>
     
 <Blog2/>
       <Blog2/>

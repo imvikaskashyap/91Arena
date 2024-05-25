@@ -4,7 +4,7 @@ const Blog2 = () => {
   return (
       <div className="max-w-sm w-full justify-center lg:max-w-full lg:flex borderCss">
         <div
-          className="h-48 lg:h-auto lg:w-48 sm:w-full bg-cover   text-center overflow-hidden">
+          className="h-32 lg:h-32 lg:w-48 sm:w-full bg-cover   text-center overflow-hidden">
        <Image
                 className="w-full"
                 src="https://images.unsplash.com/photo-1611625618313-68b87aaa0626?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
@@ -15,7 +15,7 @@ const Blog2 = () => {
               />
         </div>
         <div className=" bg-white  p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
+          <div className="mb-2">
             <p className="text-sm text-gray-600 flex items-center">
               <svg
                 className="fill-current text-gray-500 w-3 h-3 mr-2"
@@ -26,14 +26,14 @@ const Blog2 = () => {
               </svg>
               Members only
             </p>
-            <div className="text-gray-900 font-bold text-xl mb-2">
+            <div className="text-gray-900 font-bold text-base mb-2">
               Can coffee make you a better developer?
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-gray-700 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
             </p>
           </div>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <Image
               className="w-10 h-10 rounded-full mr-4"
               src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
@@ -45,7 +45,7 @@ const Blog2 = () => {
               <p className="text-gray-900 leading-none">Jonathan Reinink</p>
               <p className="text-gray-600">Aug 18</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
   );
