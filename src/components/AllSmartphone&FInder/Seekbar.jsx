@@ -41,7 +41,7 @@ const Seekbar = () => {
               style={{
                 background: getTrackBackground({
                   values,
-                  colors: ['#ccc', '#007bff', '#ccc'],
+                  colors: ['#ccc','#000',  '#ccc'],
                   min: MIN,
                   max: MAX,
                 }),
@@ -53,7 +53,7 @@ const Seekbar = () => {
           renderThumb={({ index, props }) => (
             <div
               {...props}
-              className="h-4 w-4 bg-blue-500 rounded-full shadow-md flex justify-center items-center"
+              className="h-4 w-4 bg-black rounded-full shadow-md flex justify-center items-center"
               style={{ ...props.style }}
             >
               <div className="w-1 h-6 bg-white transform rotate-45"></div>
@@ -69,7 +69,7 @@ const Seekbar = () => {
           onChange={(e) => handleInputChange(0, e.target.value)}
           className="w-1/2 p-2 border rounded"
         />
-        <p className='mx-10 text-blue-400'>to</p>
+        <p className='mx-10 '>to</p>
         Rs. 
         <Input
           type="number"

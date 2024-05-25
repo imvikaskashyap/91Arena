@@ -6,12 +6,16 @@ import ScrollAreaHorizontalDemo from "@/components/carousel-scroll";
 import { CarouselSpacing } from "@/components/carousel";
 import PhoneFinderContainer from "@/components/allSmartphoneBrand";
 import CarouselScroll from "@/components/carousel-scroll";
-import { TabsDemo } from "@/components/AllSmartphone&FInder";
+import { TabsDemo } from "@/components/allSmartphone&FInder";
 import SmartphoneContainer from "@/components/smartphoneContainer";
 import LatestMobiles from "@/components/latestMobiles";
 import UpcomingMobiles from "@/components/upcomingMobiles";
 import SwipeToSlide from "@/components/slider";
-import Carousel from "@/components/slider";
+import TwoCarousel from "@/components/twoCarousel";
+import RecentlyViewed from "@/components/recentlyViewed";
+import NewMobiles from "@/components/newMobiles";
+import BlogTemplate from "@/components/blogTemplate";
+// import Carousel from "@/components/slider";
 const page = () => {
   return (
     <div className="m-2 lg:m-8">
@@ -20,13 +24,13 @@ const page = () => {
         {/* <PhoneFinderContainer/> */}
         <Blog />
       </div>
+      <RecentlyViewed/>
       <LatestMobiles />
+      <NewMobiles/>
       <UpcomingMobiles />
-      <Blog2 />
-      <CarouselScroll />
-      <CarouselScroll />
-      <CarouselSpacing />
-      <Carousel/>
+      {/* <Blog2 />
+      <BlogTemplate/> */}
+     
     </div>
   );
 };

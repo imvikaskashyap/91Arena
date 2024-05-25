@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
+import Overlay from '../ui/overlay';
 
 export const works = [
   {
@@ -67,6 +68,7 @@ const CarouselScroll = () => {
                 width={400}
                 height={500}
               />
+              <Overlay/>
             </div>
             <figcaption className="pt-2 text-xs text-muted-foreground">
               Photo by{' '}

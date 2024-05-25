@@ -6,9 +6,9 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 export const metadata = {
-  title: "PTC - Teaching App",
+  title: "91Arena",
   description:
-    "Here is the PTC teaching application for strong relation between student and teacher, Hope you will enjoy this and learn from this.",
+    "A Mobile Specification Website",
 };
 
 export default function RootLayout({ children }) {

@@ -1,21 +1,24 @@
-import Image from 'next/image';
+import Image from 'next/image'
+import React from 'react'
+import Blog2 from '../blog2'
 
-const Blog2 = () => {
+const BlogTemplate = () => {
   return (
-      <div className="max-w-sm w-full justify-center lg:max-w-full lg:flex borderCss">
+    <div className='flex flex-col gap-6 items-center justify-between lg:flex-row '>
+      <div className="max-w-sm w-1/3 flex-col  items-center justify-center lg:max-w-full lg:flex mt-7 borderCss">
         <div
-          className="h-48 lg:h-auto lg:w-48 sm:w-full bg-cover   text-center overflow-hidden">
+          className="h-52 lg:h-64 lg:w-96 p-2 sm:w-full bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden ">
        <Image
-                className="w-full"
+                className="w-full rounded-lg"
                 src="https://images.unsplash.com/photo-1611625618313-68b87aaa0626?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
                 alt="Image Description"
                 // layout="fill"
-                width={190}
+                width={350}
                 height={290}
               />
         </div>
-        <div className=" bg-white  p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
+        <div className="w-full p-4 flex flex-col justify-between leading-normal">
+          <div className="mb-4">
             <p className="text-sm text-gray-600 flex items-center">
               <svg
                 className="fill-current text-gray-500 w-3 h-3 mr-2"
@@ -26,10 +29,10 @@ const Blog2 = () => {
               </svg>
               Members only
             </p>
-            <div className="text-gray-900 font-bold text-xl mb-2">
+            <div className="text-gray-900 font-bold text-base mb-1">
               Can coffee make you a better developer?
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-gray-700  text-sm">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
             </p>
           </div>
@@ -48,7 +51,15 @@ const Blog2 = () => {
           </div>
         </div>
       </div>
-  );
-};
+<div className='flex flex-col items-center justify-between'>
+    
+<Blog2/>
+      <Blog2/>
+      <Blog2/>
+</div>
 
-export default Blog2;
+    </div>
+  )
+}
+
+export default BlogTemplate
