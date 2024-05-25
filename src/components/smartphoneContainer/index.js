@@ -1,7 +1,7 @@
 import SmartphoneGrid from "./SmartphoneGrid";
 import img from "../../../public/assets/images/3459.png_1200-removebg-preview.png";
 
-export default function SmartphoneContainer({title1, title2}) {
+export default function SmartphoneContainer({title}) {
   const smartphones = [
     {
       id: 1,
@@ -79,7 +79,7 @@ export default function SmartphoneContainer({title1, title2}) {
 
   return (
     <div>
-      <SmartphoneGrid smartphones={smartphones} title1={title1} title2={title2} />
+      <SmartphoneGrid smartphones={smartphones} title={title} />
     </div>
   );
 }

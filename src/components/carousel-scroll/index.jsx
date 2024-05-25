@@ -56,7 +56,7 @@ export const works = [
 const CarouselScroll = () => {
   return (
     <ScrollArea className="w-[100%] whitespace-nowrap rounded-md border mt-3">
-      <div className="flex w-max space-x-4 pb-4">
+      <div className="flex w-max space-x-4 p-2 pb-3">
         {works.map((artwork,index) => (
           <figure  key={index} className="shrink-0">
             <div className="overflow-hidden rounded-md">
