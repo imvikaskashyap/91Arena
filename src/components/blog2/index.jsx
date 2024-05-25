@@ -2,16 +2,16 @@ import Image from 'next/image';
 
 const Blog2 = () => {
   return (
-      <div className="max-w-sm w-full justify-center lg:max-w-full lg:flex borderCss">
+      <div className="max-w-sm w-full justify-center lg:max-w-full lg:flex cursor-pointer borderCss ">
         <div
-          className="h-32 lg:h-32 lg:w-48 sm:w-full bg-cover   text-center overflow-hidden">
+          className="h-36 lg:h-32 lg:w-48 sm:w-full bg-cover text-center overflow-hidden">
        <Image
-                className="w-full"
+                className="w-full rounded-lg p-1"
                 src="https://images.unsplash.com/photo-1611625618313-68b87aaa0626?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
                 alt="Image Description"
                 // layout="fill"
-                width={190}
-                height={290}
+                width={120}
+                height={120}
               />
         </div>
         <div className=" bg-white  p-4 flex flex-col justify-between leading-normal">

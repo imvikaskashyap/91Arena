@@ -1,13 +1,21 @@
 import Image from 'next/image'
 import React from 'react'
 import Blog2 from '../blog2'
+import { Button } from '../ui/button'
 
 const BlogTemplate = () => {
   return (
+
+    <div className='p-4 borderCss'>
+          <div className="flex justify-between items-center mb-4">
+        <h2 className="text-xl font-bold">Latest News</h2>
+        <Button className="underline" variant="link">View all</Button>
+      </div>
+    
     <div className='flex flex-col gap-6 items-center justify-between lg:flex-row '>
-      <div className="max-w-sm w-1/3 flex-col  items-center justify-center lg:max-w-full lg:flex mt-7 borderCss">
+      <div className="max-w-sm w-1/3 flex-col  items-center justify-center lg:max-w-full lg:flex borderCss">
         <div
-          className="h-52 lg:h-64 lg:w-96 p-2 sm:w-full bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden ">
+          className="h-52 lg:h-56 lg:w-96 p-2 sm:w-full bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden ">
        <Image
                 className="w-full rounded-lg"
                 src="https://images.unsplash.com/photo-1611625618313-68b87aaa0626?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
@@ -57,6 +65,8 @@ const BlogTemplate = () => {
       <Blog2/>
       <Blog2/>
 </div>
+
+    </div>
 
     </div>
   )
