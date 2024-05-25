@@ -12,7 +12,7 @@ import LatestMobiles from '@/components/latestMobiles'
 import UpcomingMobiles from '@/components/upcomingMobiles'
 const page = () => {
   return (
-    <div className='lg:m-8'>
+    <div className='m-2 lg:m-8'>
     <div className='flex flex-col items-center justify-between my-8 lg:flex-row lg:h-[89vh]'>
     <TabsDemo/>
     {/* <PhoneFinderContainer/> */}
@@ -22,6 +22,7 @@ const page = () => {
     <LatestMobiles/>
     <UpcomingMobiles/>
       <Blog2/>
+      <CarouselScroll/>
       <CarouselScroll/>
       <CarouselSpacing/>
     </div>
