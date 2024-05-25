@@ -6,6 +6,9 @@ import UpcomingMobiles from "@/components/upcomingMobiles";
 import RecentlyViewed from "@/components/recentlyViewed";
 import NewMobiles from "@/components/newMobiles";
 import BlogTemplate from "@/components/blogTemplate";
+import LatestNews from "@/components/latestNews";
+import LatestHindiNews from "@/components/latestHindiNews";
+import LatestReview from "@/components/latestReview";
 const page = () => {
   return (
     <div className="m-2 lg:m-8">
@@ -17,8 +20,9 @@ const page = () => {
       <LatestMobiles />
       <NewMobiles/>
       <UpcomingMobiles />
-      {/* <Blog2 /> */}
-      <BlogTemplate/>
+    <LatestNews/>
+    <LatestHindiNews/>
+    <LatestReview/>
      
     </div>
   );
