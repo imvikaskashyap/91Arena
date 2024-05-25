@@ -1,17 +1,10 @@
 import React from "react";
 import { DarkMode } from "@/custom-components/Theme-Mode";
 import Blog from "@/components/blog";
-import Blog2 from "@/components/blog2";
-import ScrollAreaHorizontalDemo from "@/components/carousel-scroll";
-import { CarouselSpacing } from "@/components/carousel";
-import PhoneFinderContainer from "@/components/allSmartphoneBrand";
-import CarouselScroll from "@/components/carousel-scroll";
+// import Blog2 from "@/components/blog2";
 import { TabsDemo } from "@/components/allSmartphone&FInder";
-import SmartphoneContainer from "@/components/smartphoneContainer";
 import LatestMobiles from "@/components/latestMobiles";
 import UpcomingMobiles from "@/components/upcomingMobiles";
-import SwipeToSlide from "@/components/slider";
-import TwoCarousel from "@/components/twoCarousel";
 import RecentlyViewed from "@/components/recentlyViewed";
 import NewMobiles from "@/components/newMobiles";
 import BlogTemplate from "@/components/blogTemplate";
