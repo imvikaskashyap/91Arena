@@ -38,7 +38,7 @@ const smartphones = [
   "MICROSOFT"
 ];
 
-export function TabsDemo() {
+const TabsDemo = ()=> {
   return (
     <Tabs defaultValue="allBrands" className="w-full lg:w-[36%] ">
       <TabsList className="grid w-full grid-cols-2">
@@ -90,3 +90,5 @@ export function TabsDemo() {
     </Tabs>
   );
 }
+
+export default TabsDemo
