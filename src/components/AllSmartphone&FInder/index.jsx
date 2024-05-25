@@ -65,10 +65,8 @@ export function TabsDemo() {
           <CardContent className="space-y-2"></CardContent>
           <CardFooter className="flex items-center justify-end">
            
-          <span className="mr-2 text-xl">View all</span>
-           <Button variant="outline" size="icon">
-              <ChevronRight className="h-4 w-4" />
-            </Button>
+          <Button className="underline" variant="link">View all</Button>
+
           </CardFooter>
         </Card>
       </TabsContent>

@@ -58,14 +58,14 @@ const CarouselScroll = () => {
     <ScrollArea className="w-[100%] whitespace-nowrap rounded-md border mt-3">
       <div className="flex w-max space-x-4 p-2 pb-3">
         {works.map((artwork,index) => (
-          <figure  key={index} className="shrink-0">
-            <div className="overflow-hidden rounded-md">
+          <figure  key={index} className="shrink-0 ">
+            <div className="overflow-hidden rounded-md ">
               <Image
                 src={artwork.art}
                 alt={`Photo by ${artwork.artist}`}
-                className="aspect-[3/4] h-fit w-fit object-contain"
-                width={300}
-                height={400}
+                className="aspect-[3/4] h-fit w-fit object-cover p-1"
+                width={400}
+                height={500}
               />
             </div>
             <figcaption className="pt-2 text-xs text-muted-foreground">

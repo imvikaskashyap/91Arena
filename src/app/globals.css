@@ -105,3 +105,78 @@ body {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   border-radius: calc(var(--radius) - 4px);
 }
+
+.box{
+  transition: box-shadow .3s;
+   border-radius:10px;
+  border: 1px solid #ccc;
+  /* background: #fff; */
+  float: left;
+}
+
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  margin-left: 0;
+  margin-right: 0;
+}
+/* Hide the tooltip by default */
+.tooltipText {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.2s;
+  font-size: 12px; /* Adjust font size */
+}
+
+/* Tooltip arrow */
+.tooltipText::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* Show the tooltip when hovering over the icon */
+.hoverTooltip:hover .tooltipText {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Additional styling for the icon container if needed */
+.icon-container {
+  display: flex;
+  gap: 10px; /* Space between icons */
+  position: relative;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
