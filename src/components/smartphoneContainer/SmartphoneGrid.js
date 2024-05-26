@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
-import SmartphoneCard from './SmartphoneCard';
 import { Button } from "@/components/ui/button";
+import SmartphoneCard from './SmartphoneCard';
 
 const SmartphoneGrid = ({ smartphones, title }) => {
   return (

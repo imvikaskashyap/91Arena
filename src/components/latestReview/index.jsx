@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogTemplate from '../blogTemplate'
+import BlogTemplate from '../BlogTemplate'
 
 const LatestReview = () => {
   return (

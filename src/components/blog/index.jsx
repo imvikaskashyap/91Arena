@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import CarouselScroll from '../carousel-scroll';
+import CarouselScroll from '../Carousel-scroll';
 
 const Blog = () => {
   return (

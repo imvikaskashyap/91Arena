@@ -1,5 +1,5 @@
 import React from 'react'
-import SmartphoneContainer from '../smartphoneContainer'
+import SmartphoneContainer from '../SmartphoneContainer'
 
 const LatestMobiles = () => {
   return (

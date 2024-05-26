@@ -1,5 +1,5 @@
 import React from 'react'
-import TwoCarousel from '../twoCarousel'
+import TwoCarousel from '../TwoCarousel'
 
 const RecentlyViewed = () => {
   return (
