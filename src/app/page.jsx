@@ -7,7 +7,7 @@ import NewMobiles from "@/components/newMobiles";
 import LatestNews from "@/components/latestNews";
 import LatestHindiNews from "@/components/latestHindiNews";
 import LatestReview from "@/components/latestReview";
-import TabsDemo from "@/components/allSmartphone&FInder/index";
+import TabsDemo from "@/components/tabsDemo/index";
 const page = () => {
   return (
     <div className="m-2 lg:m-8">
