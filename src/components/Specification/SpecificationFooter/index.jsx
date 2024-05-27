@@ -77,21 +77,21 @@ const specifications = {
   
     return (
       
-      <div className="mt-2 borderCss p-3">
+      <div className="mt-2 borderCss py-3">
             {Object.entries(specifications).map(([section, details]) => (
               <div key={section} className="mb-4 flex flex-col ">
                 <div className="two mb-3">
-                  <span className="specTitle mb-1">{section.toUpperCase()}</span>
-                  <h2></h2>
+                  <span className="specTitle ml-2 mb-1">{section.toUpperCase()}</span>
+                  <h2 ></h2>
                 </div>
                    <table className="table-auto  text-left">
                   <tbody>
                     {Object.entries(details).map(([key, value]) => (
-                      <tr key={key} className="border-b">
-                        <th className="px-2 py-1 w-1/6 font-medium text-sm uppercase">
+                      <tr key={key} className="border-y mt-1">
+                        <th className="px-2 py-1 w-1/6 font-medium text-sm  uppercase">
                           {key}
                         </th>
-                        <td className="px-2 py-1 font-normal text-sm uppercase">
+                        <td className="px-2 py-1 font-normal  md:text-sm text-[11px] uppercase">
                           {typeof value === "boolean"
                             ? value
                               ? "Yes"
