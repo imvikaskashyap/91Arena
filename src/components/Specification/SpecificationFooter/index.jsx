@@ -23,7 +23,7 @@ const specifications = {
       Type: "Super AMOLED+, 120Hz, 1000 nits (HBM)",
       Size: "6.7 inches, 108.4 cm2 (~86.4% screen-to-body ratio)",
       Resolution: "1080 x 2400 pixels, 20:9 ratio (~393 ppi density)",
-      "Always-on display": true,
+     "": "Always-on display"
     },
     platform: {
       OS: "Android 14, One UI 6.1",
@@ -88,10 +88,10 @@ const specifications = {
                   <tbody>
                     {Object.entries(details).map(([key, value]) => (
                       <tr key={key} className="border-y mt-1">
-                        <th className="px-2 py-1 w-1/6 font-medium text-sm  uppercase">
+                        <th className="px-2 py-1 w-1/4 font-bold text-sm  uppercase">
                           {key}
                         </th>
-                        <td className="px-2 py-1 font-normal  md:text-sm text-[11px] uppercase">
+                        <td className="px-2 py-1 font-semibold  md:text-sm text-xs ">
                           {typeof value === "boolean"
                             ? value
                               ? "Yes"

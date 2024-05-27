@@ -208,7 +208,7 @@ body {
 
 .specTitle{
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1em;
@@ -216,7 +216,7 @@ body {
 }
 .specDetails{
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 800;
   text-transform: uppercase;
   /* letter-spacing: 1px; */
   line-height: 1em;
