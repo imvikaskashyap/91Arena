@@ -188,3 +188,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.two h2 {
+  text-transform: capitalize;
+}
+.two h2:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  /* bottom: 3px;
+  left: 50%; */
+  /* margin-left: -4px; */
+  background-color: #b80000;
+  
+
+}
+
+.specTitle{
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1em;
+  /* color: rgba(0, 0, 0, 0.4); */
+}
+.specDetails{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+  line-height: 1em;
+  /* color: rgba(0, 0, 0, 0.4); */
+}
+.alt-two h2 {
+  text-align:center;
+}
+.alt-two h2:before {
+  left:50%; margin-left:-30px;
+}
