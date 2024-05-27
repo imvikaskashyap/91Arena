@@ -2,8 +2,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { DarkMode } from "@/custom-components/Theme-Mode";
 import { AuthProvider } from "@/context/authContext";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: "91Arena",

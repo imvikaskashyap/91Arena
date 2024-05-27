@@ -1,13 +1,13 @@
 import React from "react";
-import Blog from "@/components/Blog";
-import LatestMobiles from "@/components/LatestMobiles";
-import UpcomingMobiles from "@/components/UpcomingMobiles";
-import RecentlyViewed from "@/components/RecentlyViewed";
-import NewMobiles from "@/components/NewMobiles";
-import LatestNews from "@/components/LatestNews";
-import LatestHindiNews from "@/components/LatestHindiNews";
-import LatestReview from "@/components/LatestReview";
-import TabsDemo from "@/components/TabsDemo";
+import Blog from "@/components/blog";
+import LatestMobiles from "@/components/latestMobiles";
+import UpcomingMobiles from "@/components/upcomingMobiles";
+import RecentlyViewed from "@/components/recentlyViewed";
+import NewMobiles from "@/components/newMobiles";
+import LatestNews from "@/components/latestNews";
+import LatestHindiNews from "@/components/latestHindiNews";
+import LatestReview from "@/components/latestReview";
+import TabsDemo from "@/components/tabsDemo";
 const page = () => {
   return (
     <div className="m-2 lg:m-8">

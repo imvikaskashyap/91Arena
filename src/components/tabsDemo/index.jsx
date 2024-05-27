@@ -11,8 +11,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Seekbar from "../Seekbar/Seekbar";
-import PriceSearch from "../PriceSearch/PriceSearch";
+import Seekbar from "../seekbar/Seekbar";
+import PriceSearch from "../priceSearch/PriceSearch";
 
 
 const smartphones = [

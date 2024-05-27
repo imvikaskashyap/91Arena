@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { CarouselSpacing } from '../Carousel';
-import CarouselScroll from '../Carousel-scroll';
+import { CarouselSpacing } from '../carousel';
+import CarouselScroll from '../carousel-scroll';
 import { Button } from "@/components/ui/button";
 
 const TwoCarousel = ({title}) => {

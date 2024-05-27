@@ -1,5 +1,5 @@
 import React from 'react'
-import TwoCarousel from '../TwoCarousel'
+import TwoCarousel from '../twoCarousel'
 
 const NewMobiles = () => {
   return (

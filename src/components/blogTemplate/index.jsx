@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import Blog2 from "../Blog2";
+import Blog2 from "../blog2";
 import { Button } from "../ui/button";
-import CarouselScroll from "../Carousel-scroll";
+import CarouselScroll from "../carousel-scroll";
 
 const BlogTemplate = ({title}) => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
