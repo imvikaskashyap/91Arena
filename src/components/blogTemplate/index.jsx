@@ -22,7 +22,7 @@ const BlogTemplate = ({title}) => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [isLargeScreen,isSmallScreen]);
 
   return (
     <div className="p-4 borderCss mb-8">

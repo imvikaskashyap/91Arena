@@ -90,24 +90,21 @@
   }
   body {
     @apply bg-background text-foreground;
-    /* font-family: "Inconsolata", monospace;
+    font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal; */
+    font-weight: 500;
+    font-style: normal;
   }
 }
 
-body {
-  /* font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal; */
-}
 
-.saira-FontFamily {
+
+/* .saira-FontFamily {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-}
+} */
 
 .borderCss{
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -207,7 +204,7 @@ body {
 }
 
 .specTitle{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;

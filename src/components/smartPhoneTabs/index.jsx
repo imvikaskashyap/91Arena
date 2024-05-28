@@ -39,9 +39,10 @@ const smartphones = [
   "MICROSOFT"
 ];
 
-const TabsDemo = ()=> {
+const SmartPhoneTabs = ()=> {
   return (
-    <Tabs defaultValue="allBrands" className="w-full lg:w-[36%] ">
+    
+    <Tabs defaultValue="allBrands" className="w-full">
       <TabsList className="grid w-full grid-cols-2">
         <TabsTrigger value="allBrands">All Brands</TabsTrigger>
         <TabsTrigger value="findPhone">Find Phone</TabsTrigger>
@@ -55,7 +56,7 @@ const TabsDemo = ()=> {
                 {smartphones.map((phone, index) => (
                   <button
                     key={index}
-                    className="phone-item py-1 px-2 border rounded bg-gray-100 hover:bg-gray-200"
+                    className="py-1 px-2 border rounded bg-gray-100 hover:bg-gray-200"
                   >
                     {phone}
                   </button>
@@ -89,7 +90,8 @@ const TabsDemo = ()=> {
         </Card>
       </TabsContent>
     </Tabs>
+
   );
 }
 
-export default TabsDemo
+export default SmartPhoneTabs

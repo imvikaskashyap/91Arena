@@ -12,7 +12,7 @@ const SmartphoneGrid = ({ smartphones, title }) => {
       </div>
       <div className="grid gap-1 sm:gap-6 ">
         {/* For small screens, show only 6 smartphones */}
-        <div className="block md:hidden grid gap-1 grid-cols-3">
+        <div className="md:hidden grid gap-1 grid-cols-3">
           {smartphones.slice(0, 6).map((smartphone) => (
             <SmartphoneCard key={smartphone.id} smartphone={smartphone} />
           ))}

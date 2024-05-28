@@ -7,12 +7,12 @@ import NewMobiles from "@/components/newMobiles";
 import LatestNews from "@/components/latestNews";
 import LatestHindiNews from "@/components/latestHindiNews";
 import LatestReview from "@/components/latestReview";
-import TabsDemo from "@/components/tabsDemo";
+import SmartPhoneTabs from "@/components/smartPhoneTabs";
 const page = () => {
   return (
-    <div className="m-2 lg:m-8">
-      <div className="flex flex-col gap-6 items-center justify-between my-8 lg:flex-row lg:h-[89vh]">
-      <TabsDemo/>
+    <div className="m-2 lg:m-6">
+      <div className="flex flex-col gap-6 items-center justify-between lg:flex-row lg:h-[89vh]">
+      <SmartPhoneTabs/>
         <Blog />
       </div>
       <RecentlyViewed/>

@@ -18,7 +18,7 @@ const TwoCarousel = ({title}) => {
     return () => {
       window.removeEventListener('resize', handleResize); 
     };
-  }, []);
+  }, [isSmallScreen]);
 
   return (
     <div className="w-full p-4 borderCss my-8">
