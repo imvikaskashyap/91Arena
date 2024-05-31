@@ -31,7 +31,7 @@ export default function ReplyPage() {
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label htmlFor="username" className="block mb-1 font-semibold">
+            <label  className="block mb-1 font-semibold">
               Your Name
             </label>
             <input
@@ -43,7 +43,7 @@ export default function ReplyPage() {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="review" className="block mb-1 font-semibold">
+            <label  className="block mb-1 font-semibold">
               Your Review
             </label>
             <textarea

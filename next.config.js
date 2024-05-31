@@ -2,7 +2,7 @@
 
 module.exports = {
     images: {
-      domains: ['images.unsplash.com','image.similarpng.com','encrypted-tbn0.gstatic.com'],
+      domains: ['images.unsplash.com','image.similarpng.com','encrypted-tbn0.gstatic.com','source.unsplash.com','img.freepik.com'],
     },
   };
   
