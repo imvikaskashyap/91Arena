@@ -4,9 +4,9 @@ import BlogPageRightSide from "./BlogPageRightSide/Index";
 
 const BlogPage = () => {
   return (
-    <div className="flex justify-between mt-4">
+    <div className="mt-4">
       <section className="dark:bg-gray-100 dark:text-gray-800">
-        <div className="container  p-6 mx-auto space-y-6 sm:space-y-12">
+        <div className="container p-4 mx-auto space-y-6 sm:space-y-12">
           <a
             rel="noopener noreferrer"
             href="#"
@@ -19,7 +19,7 @@ const BlogPage = () => {
               height={256}
               className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
             />
-            <div className="p-6 space-y-2 lg:col-span-5">
+            <div className="py-3 px-1 space-y-2 lg:col-span-5">
               <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">
                 Noster tincidunt reprimique ad pro
               </h3>
@@ -48,7 +48,7 @@ const BlogPage = () => {
                     width={400}
                     height={256}
                   />
-                  <div className="p-6 space-y-2">
+                  <div className="py-3 px-1 space-y-2">
                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                       In usu laoreet repudiare legendos
                     </h3>
@@ -76,7 +76,7 @@ const BlogPage = () => {
                     width={400}
                     height={256}
                   />
-                  <div className="p-6 space-y-2">
+                  <div className="py-3 px-1 space-y-2">
                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                       In usu laoreet repudiare legendos
                     </h3>
@@ -104,7 +104,7 @@ const BlogPage = () => {
                     width={400}
                     height={256}
                   />
-                  <div className="p-6 space-y-2">
+                  <div className="py-3 px-1 space-y-2">
                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                       In usu laoreet repudiare legendos
                     </h3>
@@ -132,7 +132,7 @@ const BlogPage = () => {
                     width={400}
                     height={256}
                   />
-                  <div className="p-6 space-y-2">
+                  <div className="py-3 px-1 space-y-2">
                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                       In usu laoreet repudiare legendos
                     </h3>
@@ -160,7 +160,7 @@ const BlogPage = () => {
                     width={400}
                     height={256}
                   />
-                  <div className="p-6 space-y-2">
+                  <div className="py-3 px-1 space-y-2">
                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                       In usu laoreet repudiare legendos
                     </h3>
@@ -188,7 +188,7 @@ const BlogPage = () => {
                     width={400}
                     height={256}
                   />
-                  <div className="p-6 space-y-2">
+                  <div className="py-3 px-1 space-y-2">
                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                       In usu laoreet repudiare legendos
                     </h3>
