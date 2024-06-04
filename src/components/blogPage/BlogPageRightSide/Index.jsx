@@ -5,7 +5,7 @@ import NewsletterSubsribe from '@/components/newsletterSubsribe'
 
 const BlogPageRightSide = () => {
   return (
-    <div className='borderCss p-4 flex flex-col w-full lg:w-2/6 lg:max-w-full'>
+    <div className='flex flex-col w-full lg:w-2/6 lg:max-w-full h-auto'>
     <TrendingNews title="Trending News"/>
     <PopularPhones/>
     <TrendingNews title="Latest Reviews"/>

@@ -2,7 +2,7 @@ import React from "react";
 import Blog from "@/components/blog";
 import LatestMobiles from "@/components/latestMobiles";
 import UpcomingMobiles from "@/components/upcomingMobiles";
-import RecentlyViewed from "@/components/recentlyViewed";
+import RecentlyViewed from "@/components/recentlyViewedSmartphone";
 import NewMobiles from "@/components/newMobiles";
 import LatestNews from "@/components/latestNews";
 import LatestHindiNews from "@/components/latestHindiNews";

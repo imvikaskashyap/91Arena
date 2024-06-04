@@ -4,7 +4,7 @@ import { Input } from "../ui/input";
 
 const NewsletterSubsribe = () => {
   return (
-    <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
+    <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8 px-4">
       <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
         Subscribe to newsletter
       </p>

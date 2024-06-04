@@ -31,7 +31,7 @@ const Header = () => {
             <div className="flex items-center w-full max-w-md mx-auto lg:max-w-none lg:w-auto lg:ml-10 lg:mr-auto">
               <input
                 type="text"
-                className="w-full h-10 px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                className="w-full h-10 px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500"
                 placeholder="Search..."
               />
             </div>
@@ -52,28 +52,28 @@ const Header = () => {
               )}
             </button>
 
-            <div className="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-10">
-              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </Link>
-              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Solutions </Link>
-              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Resources </Link>
-              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Pricing </Link>
+            <div className="hidden ml-10 lg:flex lg:items-center lg:mr-auto gap-3">
+              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> All Mobiles </Link>
+              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Upcoming Mobiles </Link>
+              <Link href="/blog" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600">News & Reviews </Link>
+              <Link href="/" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Compare </Link>
             </div>
 
-            <div className="hidden lg:flex lg:items-center lg:space-x-10">
-              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Sign up </Link>
-              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Sign in </Link>
+            <div className="hidden lg:flex lg:items-center gap-3 mr-3">
+              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Sign up </Link>
+              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Sign in </Link>
             </div>
             <DarkMode/>
           </nav>
 
           {menuOpen && (
             <nav className="flex flex-col py-4 space-y-2 lg:hidden">
-              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Features </Link>
-              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Solutions </Link>
-              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Resources </Link>
-              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Pricing </Link>
-              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Sign up </Link>
-              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Sign in </Link>
+              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-red-600"> Features </Link>
+              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-red-600"> Solutions </Link>
+              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-red-600"> Resources </Link>
+              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-red-600"> Pricing </Link>
+              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-red-600"> Sign up </Link>
+              <Link href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-red-600"> Sign in </Link>
             </nav>
           )}
         </div>
