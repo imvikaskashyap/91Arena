@@ -39,7 +39,17 @@ const comparisonFields = {
     "Refresh Rate",
     "Screen to Body Ratio (claimed by the brand)",
   ],
-  design: ["Dimensions", "Weight", "Build Material"],
+  design: ["Dimensions", "Weight", "Build Material", "Colours", "Waterproof", "Ruggedness"],
+ 
+  mainCamera:["Camera Setup","Resolution","Autofocus","OIS", "Flash", "Image Resolution", "Settings", "Shooting Modes", "Camera Features", "Video Recording", "Video Recording Features", ],
+  frontCamera:["Camera Setup", "Resolution", "Autofocus", "Flash","Camera Features","Video Recording"],
+  battery:["Capacity","Type","Removable","Wireless Charging", "Quick Charging","USB Type-C", ],
+  storage:["Internal Memory","Expandable Memory","Storage Type" ],
+  networkAndConnectivity:["SIM Slot(s)","SIM Size","Network Support","VoLTE" ,"SIM 1","SIM 2","SAR Value","Wi-Fi","Wi-Fi Features","Bluetooth","GPS","NFC","USB Connectivity"],
+  multimedia:["FM Radio","Stereo Speakers","Loudspeaker","Audio Jack", "Audio Features", ],
+  sensors:["Fingerprint Sensor","Fingerprint Sensor Position","Fingerprint Sensor Type","Other Sensors",  ],
+  priceList:["Amazon.in",  ],
+
 };
 
 const ComparePage = () => {
@@ -130,6 +140,13 @@ const ComparePage = () => {
           {renderComparisonRows("Performance", comparisonFields.performance)}
           {renderComparisonRows("Display", comparisonFields.display)}
           {renderComparisonRows("Design", comparisonFields.design)}
+          {renderComparisonRows("Front Camera", comparisonFields.frontCamera)}
+          {renderComparisonRows("Battery", comparisonFields.battery)}
+          {renderComparisonRows("Storage", comparisonFields.storage)}
+          {renderComparisonRows("Network & Connectivity", comparisonFields.networkAndConnectivity)}
+          {renderComparisonRows("Multimedia", comparisonFields.multimedia)}
+          {renderComparisonRows("Sensors", comparisonFields.sensors)}
+          {renderComparisonRows("PriceList", comparisonFields.priceList)}
         </tbody>
       </table>
     </div>
