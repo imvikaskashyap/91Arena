@@ -81,7 +81,7 @@ const ComparePage = () => {
         </tr>
         {fields.map((field) => (
           <tr key={field} className="border-t">
-            <td className="py-2 px-4 font-medium w-1/4">{field}</td>
+            <td className="py-2 px-4 font-medium w-1/4 lg:text-base">{field}</td>
             {phones.map((phone, index) => (
               <td key={index} className="py-2 px-4">
                 {phone[field] || "N/A"}
@@ -94,7 +94,7 @@ const ComparePage = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 w-[80%]">
+    <div className="container mx-auto p-4 w-full lg:w-[80%]">
       <h1 className="text-2xl font-bold mb-4">Mobile Comparison</h1>
       <div
         className={`min-w-full bg-white border rounded-lg overflow-hidden ${
