@@ -1,40 +1,89 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import BlogPageRightSide from "./BlogPageRightSide/Index";
+import "./index.css"
 
 const BlogPage = () => {
   return (
-    <div className="mt-4">
-      <section className="dark:bg-gray-100 dark:text-gray-800">
+    <div className="mt-4 mx-16">
+   
+
+      <section className="dark:bg-white dark:text-gray-800">
         <div className="container p-4 mx-auto space-y-6 sm:space-y-12">
           <a
             rel="noopener noreferrer"
             href="#"
-            className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50"
+            className="flex items-center gap-1 dark:bg-[#fff] bg-[#fff] p-5 relative"
           >
-            <Image
-              alt=" "
-              src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?size=626&ext=jpg&ga=GA1.1.1480204119.1716940800&semt=sph"
-              width={400}
-              height={256}
-              className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
-            />
-            <div className="py-3 px-1 space-y-2 lg:col-span-5">
-              <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">
-                Noster tincidunt reprimique ad pro
-              </h3>
-              <span className="text-xs dark:text-gray-600">
-                February 19, 2021
-              </span>
-              <p>
-                Ei delenit sensibus liberavisse pri. Quod suscipit no nam. Est
-                in graece fuisset, eos affert putent doctus id.
-              </p>
+            <div className="w-1/2 relative relative-container  image-gradient">
+              <Image
+                alt=" "
+                src="	https://www.codingwebstudio.com/livepreview/Pro%20Blog%20Website/img/leptop%20post.jpg"
+                width={400}
+                height={256}
+                className="object-cover w-full h-64 rounded sm:h-96"
+              />
+             <div className="text-container">
+                <div className="text-lg font-bold">11 Of Best Laptops Evaluated Based On Budget</div>
+                <div>by CODER</div>
+                <div>October 02, 2023</div>
+              </div>
+            </div>
+            
+            <div className="flex flex-col w-1/2 gap-1">
+              <div className="relative relative-container image-gradient">
+                <Image
+                  alt=" "
+                  src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?size=626&ext=jpg&ga=GA1.1.1480204119.1716940800&semt=sph"
+                  width={400}
+                  height={192}
+                  className="object-cover w-full h-48 rounded dark:bg-gray-500 "
+                />
+                <div className="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 text-white w-full">
+                  <div className="text-lg font-bold">Apple Watch Series 5 Is The Best One Yet By Consumer</div>
+                  <div>by AUTHOR</div>
+                  <div>October 02, 2023</div>
+                </div>
+              </div>
+              
+              <div className="flex gap-1">
+                <div className="relative w-1/2 relative-container">
+                  <Image
+                    alt=" "
+                    src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?size=626&ext=jpg&ga=GA1.1.1480204119.1716940800&semt=sph"
+                    width={200}
+                    height={200}
+                    className="object-cover w-full h-48 rounded dark:bg-gray-500 image-gradient"
+                  />
+                  <div className="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 text-white w-full">
+                    <div className="text-lg font-bold">11 Of Best Laptops Evaluated Based On Budget</div>
+                    <div>by CODER</div>
+                    <div>October 18, 2023</div>
+                  </div>
+                </div>
+                
+                <div className="relative w-1/2 relative-container">
+                  <Image
+                    alt=" "
+                    src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?size=626&ext=jpg&ga=GA1.1.1480204119.1716940800&semt=sph"
+                    width={200}
+                    height={200}
+                    className="object-cover w-full h-48 rounded dark:bg-gray-500 image-gradient"
+                  />
+                  <div className="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 text-white w-full">
+                    <div className="text-lg font-bold">18 Practices For Building Responsive Web Applications</div>
+                    <div>by AUTHOR</div>
+                    <div>October 02, 2023</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </a>
-          <div className="flex flex-col lg:flex-row gap-10 w-full">
+
+          <div className="flex flex-col lg:flex-row gap-10 w-full bg-[#fff]">
             <div className="w-full lg:w-4/6">
-              <div className=" grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2">
+              <div className="grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2">
                 <a
                   rel="noopener noreferrer"
                   href="#"
