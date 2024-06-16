@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const TrendingNews = ({title}) => {
   return (
-    <div className=" p-4 flex flex-col w-full">
-      <div className="bottomLine mb-4">
+    <div className=" p-4 flex flex-col w-full bg-white mt-6">
+      <div className="title-line mb-4">
         <span className="specTitle">{title}</span>
         <h2></h2>
       </div>

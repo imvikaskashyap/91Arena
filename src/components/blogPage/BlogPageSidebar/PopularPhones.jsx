@@ -13,8 +13,8 @@ export default function PopularPhones() {
   ];
 
   return (
-    <div className="min-h-screen p-4">
-     <div className="bottomLine mb-4">
+    <div className="min-h-screen p-4 bg-[#fff] mt-6">
+     <div className="title-line mb-4">
         <span className="specTitle">Popular Phones</span>
         <h2></h2>
       </div>

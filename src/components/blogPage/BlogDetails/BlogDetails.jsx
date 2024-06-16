@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import BlogPageRightSide from "../BlogPageRightSide/Index";
+import BlogPageRightSide from "../BlogPageSidebar/Index";
 import ReactResponsiveCarousel from "@/custom-components/ReactResponsiveCarousel";
 import { Button } from "@/components/ui/button";
 import { Mail, MessageSquareQuote } from "lucide-react";
@@ -13,7 +13,7 @@ const BlogDetails = () => {
     {
       id: 1,
       author: "Michael Gough",
-      avatar: "https://flowbite.com/docs/images/people/profile-picture-2.jpg",
+      avatar: "https://www.codingwebstudio.com/livepreview/Pro%20Blog%20Website/img/leptop%20post.jpg",
       date: "Feb. 8, 2022",
       content: "Very straight-to-point article...",
       replies: [],
@@ -21,7 +21,7 @@ const BlogDetails = () => {
     {
       id: 2,
       author: "Jese Leos",
-      avatar: "https://flowbite.com/docs/images/people/profile-picture-5.jpg",
+      avatar: "https://www.codingwebstudio.com/livepreview/Pro%20Blog%20Website/img/leptop%20post.jpg",
       date: "Feb. 12, 2022",
       content: "Much appreciated! Glad you liked it ☺️",
       replies: [],

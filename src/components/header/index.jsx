@@ -53,10 +53,11 @@ const Header = () => {
             </button>
 
             <div className="hidden ml-10 lg:flex lg:items-center lg:mr-auto gap-3">
-              <Link href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> All Mobiles </Link>
-              <Link href="/specification" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Upcoming Mobiles </Link>
-              <Link href="/blog" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600">News & Reviews </Link>
-              <Link href="/blog/details" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Compare </Link>
+              <Link href="/" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> All Mobiles </Link>
+              <Link href="/specification" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Specification
+               </Link>
+              <Link href="/blog" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600">Blog </Link>
+              <Link href="/blog/details" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"> Blog Details </Link>
             </div>
 
             <div className="hidden lg:flex lg:items-center gap-3 mr-3">
